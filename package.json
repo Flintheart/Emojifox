@@ -1,9 +1,13 @@
 {
   "name": "Emojifox",
   "description": "Emojipanel in browser sidebar.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT/X11-Lizenz",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Flintheart/Emojifox.git"
+  },
   "scripts": {
     "start:firefox": "web-ext run",
     "build": "web-ext build --artifacts-dir=dist",
