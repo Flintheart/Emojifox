@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Emojifox",
+  "version": "0.1.0",
+  "description": "Emojipanel in browser sidebar.",
+  "icons": {
+    "48": "icon.svg"
+  },
+  "sidebar_action": {
+    "default_icon": "panel/emoji_panel.svg",
+    "default_title" : "Emoji",
+    "default_panel": "panel/emoji_panel.html"
+  },
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "applications": {
+    "gecko": {
+      "id": "emojifox@flintheart"
+    }
+  }
+}
